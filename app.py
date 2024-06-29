@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-import geopy
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 from deap import base, creator, tools, algorithms
